@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Ferretería Herramientas Plus</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ferretería Herramientas Plus</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="productos">
+            <div class="container">
+                <h2>Nuestros Productos</h2>
+                <div class="filtros">
+                    <button class="filtro-btn active" data-categoria="todos">Todos</button>
+                    <button class="filtro-btn" data-categoria="manuales">Herramientas Manuales</button>
+                    <button class="filtro-btn" data-categoria="electricas">Herramientas Eléctricas</button>
+                    <button class="filtro-btn" data-categoria="materiales">Materiales</button>
+                </div>
+
+                <div class="productos-grid">
+                    <article class="producto" data-categoria="manuales">
+                        <img src="images/productos/martillo.jpg" alt="Martillo profesional">
+                        <h3>Martillo Profesional</h3>
+                        <p class="descripcion">Martillo de acero forjado con mango de fibra de vidrio</p>
+                        <p class="precio">$12.990</p>
+                        <button class="btn-comprar">Agregar al Carrito</button>
+                    </article>
+
+                    <article class="producto" data-categoria="manuales">
+                        <img src="images/productos/destornilladores.jpg" alt="Juego de destornilladores">
+                        <h3>Juego de Destornilladores</h3>
+                        <p class="descripcion">Set 12 piezas con puntas intercambiables</p>
+                        <p class="precio">$8.490</p>
+                        <button class="btn-comprar">Agregar al Carrito</button>
+                    </article>
+
+                    <article class="producto" data-categoria="electricas">
+                        <img src="images/productos/taladro.jpg" alt="Taladro percutor">
+                        <h3>Taladro Percutor 750W</h3>
+                        <p class="descripcion">Taladro profesional con función percutor y reversible</p>
+                        <p class="precio">$89.990</p>
+                        <button class="btn-comprar">Agregar al Carrito</button>
+                    </article>
+
+                    <article class="producto" data-categoria="electricas">
+                        <img src="images/productos/amoladora.jpg" alt="Amoladora angular">
+                        <h3>Amoladora Angular 4.5"</h3>
+                        <p class="descripcion">Amoladora 850W con disco de 115mm</p>
+                        <p class="precio">$45.990</p>
+                        <button class="btn-comprar">Agregar al Carrito</button>
+                    </article>
+
+                    <article class="producto" data-categoria="materiales">
+                        <img src="images/productos/tornillos.jpg" alt="Caja de tornillos">
+                        <h3>Caja de Tornillos Variados</h3>
+                        <p class="descripcion">Set 200 piezas con tornillos de diferentes medidas</p>
+                        <p class="precio">$5.990</p>
+                        <button class="btn-comprar">Agregar al Carrito</button>
+                    </article>
+
+                    <article class="producto" data-categoria="materiales">
+                        <img src="images/productos/pintura.jpg" alt="Pintura latex">
+                        <h3>Pintura Látex 4 Litros</h3>
+                        <p class="descripcion">Pintura de interior, acabado mate, varios colores</p>
+                        <p class="precio">$15.990</p>
+                        <button class="btn-comprar">Agregar al Carrito</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ferretería Herramientas Plus. Todos los derechos reservados.</p>
+            <p>Dirección: Av. Principal #123, Ciudad</p>
+            <p>Teléfono: +56 9 1234 5678</p>
+        </div>
+    </footer>
+
+    <script src="js/productos.js"></script>
+</body>
+</html>

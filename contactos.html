@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Ferretería Herramientas Plus</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ferretería Herramientas Plus</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contacto">
+            <div class="container">
+                <h2>Contáctanos</h2>
+                <p>Estamos aquí para ayudarte. Completa el formulario y te responderemos a la brevedad.</p>
+                
+                <div class="contacto-grid">
+                    <div class="formulario-contacto">
+                        <form id="formulario-contacto">
+                            <div class="form-group">
+                                <label for="nombre">Nombre completo *</label>
+                                <input type="text" id="nombre" name="nombre" required autocomplete="name" placeholder="Ingresa tu nombre completo">
+                                <small class="error-message"></small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required autocomplete="email" placeholder="tu.email@ejemplo.com">
+                                <small class="error-message"></small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="telefono">Teléfono</label>
+                                <input type="tel" id="telefono" name="telefono" autocomplete="tel" placeholder="+56 9 1234 5678">
+                                <small class="error-message"></small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="asunto">Asunto *</label>
+                                <select id="asunto" name="asunto" required>
+                                    <option value="">Seleccione un asunto</option>
+                                    <option value="consulta">Consulta general</option>
+                                    <option value="cotizacion">Cotización de productos</option>
+                                    <option value="servicio">Servicios profesionales</option>
+                                    <option value="reclamo">Reclamo o sugerencia</option>
+                                    <option value="postventa">Servicio post venta</option>
+                                </select>
+                                <small class="error-message"></small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="mensaje">Mensaje *</label>
+                                <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Describe tu consulta o requerimiento..."></textarea>
+                                <small class="error-message"></small>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="newsletter" name="newsletter">
+                                    <span>Deseo recibir información sobre promociones y novedades</span>
+                                </label>
+                            </div>
+
+                            <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+                        </form>
+                    </div>
+
+                    <div class="informacion-contacto">
+                        <div class="info-item">
+                            <h3>📍 Dirección</h3>
+                            <p>Av. Principal #123<br>Santiago Centro<br>Región Metropolitana</p>
+                        </div>
+
+                        <div class="info-item">
+                            <h3>📞 Teléfonos</h3>
+                            <p>Ventas: +56 2 2345 6789<br>Servicio Técnico: +56 2 2345 6790<br>WhatsApp: +56 9 8765 4321</p>
+                        </div>
+
+                        <div class="info-item">
+                            <h3>🕒 Horario de Atención</h3>
+                            <p>Lunes a Viernes: 9:00 - 19:00 hrs<br>Sábados: 9:00 - 14:00 hrs<br>Domingos: Cerrado</p>
+                        </div>
+
+                        <div class="info-item">
+                            <h3>📧 Email</h3>
+                            <p>ventas@herramientasplus.cl<br>servicio@herramientasplus.cl<br>cotizaciones@herramientasplus.cl</p>
+                        </div>
+
+                        <div class="mapa">
+                            <h3>🗺️ ¿Cómo llegar?</h3>
+                            <div class="mapa-embed">
+                                <!-- Aquí puedes integrar Google Maps -->
+                                <div style="background:#eee; padding:20px; border-radius:8px; text-align:center;">
+                                    <p>🌐 Mapa interactivo de Google Maps</p>
+                                    <small>Integra aquí el iframe de Google Maps</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ferretería Herramientas Plus. Todos los derechos reservados.</p>
+            <p>Dirección: Av. Principal #123, Ciudad</p>
+            <p>Teléfono: +56 9 1234 5678</p>
+        </div>
+    </footer>
+
+    <script src="js/validacion.js"></script>
+</body>
+</html>

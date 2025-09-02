@@ -3,22 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <title>Ferretería Herramientas Plus</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Web Page</h1>
+        <div class="container">
+            <h1>Ferretería Herramientas Plus</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
     <main>
-        <p>This is a simple web page with linked CSS and JavaScript files.</p>
-        <button id="myButton">Click Me</button>
+        <section class="hero">
+            <div class="container">
+                <h2>Todo en herramientas y materiales</h2>
+                <p>Calidad y garantía en todos nuestros productos</p>
+                <button onclick="location.href='productos.html'">Ver Productos</button>
+            </div>
+        </section>
+
+        <section class="categorias">
+            <div class="container">
+                <h2>Categorías Principales</h2>
+                <div class="categoria-grid">
+                    <article class="categoria">
+                        <img src="images/herramientas.jpg" alt="Herramientas manuales">
+                        <h3>Herramientas Manuales</h3>
+                    </article>
+                    <article class="categoria">
+                        <img src="images/electricas.jpg" alt="Herramientas eléctricas">
+                        <h3>Herramientas Eléctricas</h3>
+                    </article>
+                    <article class="categoria">
+                        <img src="images/materiales.jpg" alt="Materiales de construcción">
+                        <h3>Materiales de Construcción</h3>
+                    </article>
+                </div>
+            </div>
+        </section>
     </main>
+
     <footer>
-        <p>&copy; 2024 My Web Page</p>
+        <div class="container">
+            <p>&copy; 2024 Ferretería Herramientas Plus. Todos los derechos reservados.</p>
+            <p>Dirección: Av. Principal #123, Ciudad</p>
+            <p>Teléfono: +56 9 1234 5678</p>
+        </div>
     </footer>
 </body>
-
-
 </html>
