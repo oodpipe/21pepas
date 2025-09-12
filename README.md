@@ -70,7 +70,7 @@ Puedes ver el demo del proyecto [aquí](https://tu-usuario.github.io/ferreteria-
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/ferreteria.git
+https://github.com/oodpipe/Ferreteria.git
 
 
 
