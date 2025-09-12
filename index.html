@@ -25,7 +25,17 @@
 
     <main>
         <section class="hero">
-            <div class="container">
+            <!-- Video de fondo -->
+            <div class="video-background">
+                <video autoplay muted loop playsinline>
+                    <source src="videos/700_F_281137709_DizbsRTvZkuifMD6fuJIoXGUxJq13Zu6_ST.mp4" type="video/mp4">
+                    <!-- Texto alternativo si el video no carga -->
+                    Tu navegador no soporta videos HTML5.
+                </video>
+                <div class="video-overlay"></div>
+            </div>
+            
+            <div class="container hero-content">
                 <h2>Todo en herramientas y materiales</h2>
                 <p>Calidad y garantía en todos nuestros productos</p>
                 <button onclick="location.href='productos.html'">Ver Productos</button>
@@ -37,15 +47,15 @@
                 <h2>Categorías Principales</h2>
                 <div class="categoria-grid">
                     <article class="categoria">
-                        <img src="images/herramientas.jpg" alt="Herramientas manuales">
+                        <img src="images/herramientas-manuales.jpg" alt="Herramientas manuales">
                         <h3>Herramientas Manuales</h3>
                     </article>
                     <article class="categoria">
-                        <img src="images/electricas.jpg" alt="Herramientas eléctricas">
+                        <img src="images/herramientas-electricas.jpg" alt="Herramientas eléctricas">
                         <h3>Herramientas Eléctricas</h3>
                     </article>
                     <article class="categoria">
-                        <img src="images/materiales.jpg" alt="Materiales de construcción">
+                        <img src="images/materiales-construccion.jpeg" alt="Materiales de construcción">
                         <h3>Materiales de Construcción</h3>
                     </article>
                 </div>
